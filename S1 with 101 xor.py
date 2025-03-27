@@ -1,4 +1,4 @@
-
+#This version is implemented by splitting S1 into three layers
 for i in range(256):
     x = list(map(int, bin(i)[2:].rjust(8, '0')))  # x3存储在x[0]，即x3 x2 x1 x0存储在x[0-3]上
     # print(x)
